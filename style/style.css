@@ -1,0 +1,38 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    background: black;
+}
+
+/* <!-- ++++++++++  container  ++++++++++ --> */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+/* <!-- ===========  bulb img  =========== --> */
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* <!-- =========== btn  =========== --> */
+button{
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: #07c8ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
